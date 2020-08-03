@@ -10,7 +10,7 @@ namespace ooP
         private string eyeColor;
 
         //constructor
-        public human(string firstName, string lastname)
+        public human(string firstName, string lastName, string eyeColor)
         {
             this.firstName = firstName;
             this.lastName = lastName;
@@ -21,6 +21,7 @@ namespace ooP
         public void IntroducingMyself()
         {
             Console.WriteLine("hi, I'm {0} {1}", firstName, lastName);
+            Console.WriteLine("My eye color is {0}", eyeColor);
         }
     }
 }
